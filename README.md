@@ -36,11 +36,55 @@ Where $\theta$ ranges from $0$ to $2\pi$ across 120 steps.
 <br>
 <center>Heart Art using Python</center>
 
-
-
 ## 🚀 Getting Started
 
 ### Prerequisites
 
 * **Python 3.x** installed on your system.
 * The `turtle`, `math`, and `random` modules (included in the Python standard library, no extra `pip install` required).
+
+
+
+# 02. 🌻 Mathematical Phyllotaxis (Sunflower Pattern)
+
+An elegant Python script built with `turtle`, `math`, and `colorsys` that models nature's golden ratio spiral—the arrangement of seeds in a sunflower head—using polar coordinates and mathematical equations.
+
+---
+
+## 📸 Visual Overview
+
+ "<img width="903" height="738" alt="Screenshot 2026-08-04 003227" src="https://github.com/user-attachments/assets/111d63a5-3222-42d4-bc0c-a377d67eb069" />"
+
+
+---
+
+## ✨ Features
+
+* **Natural Optimization:** Simulates real botanical growth patterns observed in sunflowers, pinecones, and succulents.
+* **Golden Angle Precision:** Uses trigonometric equations based on the Golden Ratio ($\phi$) to achieve maximum packing density.
+* **Dynamic HSV Rainbow Palette:** Colors cycle smoothly across the spectrum using `colorsys.hsv_to_rgb` as seeds expand outward.
+* **Instant Turtle Rendering:** Utilizes `screen.tracer(0)` for zero-delay instant graphic generation.
+
+---
+
+## 🧮 How the Math Works
+
+The position of each seed $i$ (where $i = 0, 1, 2, \dots, N$) is calculated in polar coordinates $(r, \theta)$ before being converted into Cartesian $(x, y)$ coordinates for the screen:
+
+### 1. The Golden Angle ($\theta$)
+To prevent seeds from aligning in straight rows and leaving empty space, each new seed rotates relative to the previous one by the Golden Angle:
+
+$$\theta = i \times 137.508^\circ$$
+
+### 2. Radius ($r$)
+Using Fermat's Spiral equation, the distance from the center grows proportionally to the square root of the index:
+
+$$r = c \sqrt{i}$$
+
+*(where $c$ is a scaling factor controlling spacing)*
+
+### 3. Coordinate Conversion
+$$\begin{aligned} x &= r \cos(\theta) \\ y &= r \sin(\theta) \end{aligned}$$
+
+---
+
