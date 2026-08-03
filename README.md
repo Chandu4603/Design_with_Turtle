@@ -30,10 +30,9 @@ Where $\theta$ ranges from $0$ to $2\pi$ across 120 steps.
 ---
 ## The Final OutPut is Here
 
+<a.href="<img width="835" height="704" alt="Screenshot 2026-08-04 001721" src="https://github.com/user-attachments/assets/57c2b9db-6c4b-4a9f-8097-0d682cb3dcb0" />
 
-<br>
-<br>
-<a.href="<img width="835" height="704" alt="Screenshot 2026-08-04 001721" src="https://github.com/user-attachments/assets/57c2b9db-6c4b-4a9f-8097-0d682cb3dcb0" />Heart Art using Python </a>
+Heart Art using Python
 
 
 ## 🚀 Getting Started
