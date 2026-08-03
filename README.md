@@ -88,5 +88,5 @@ $$\begin{aligned} x &= r \cos(\theta) \\ y &= r \sin(\theta) \end{aligned}$$
 
 ---
 ### Prerequisites
-Python 3.x installed on your system.
-The turtle, math, and random modules (included in the Python standard library, no extra pip install required).
+* Python 3.x installed on your system.
+* The turtle, math, and random modules (included in the Python standard library, no extra pip install required).
