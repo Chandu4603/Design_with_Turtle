@@ -90,3 +90,22 @@ $$\begin{aligned} x &= r \cos(\theta) \\ y &= r \sin(\theta) \end{aligned}$$
 ### Prerequisites
 * Python 3.x installed on your system.
 * The turtle, math, and random modules (included in the Python standard library, no extra pip install required).
+
+# 03. 🛕 Lord Jagannath Turtle Art
+
+A Python script built using the standard `turtle` graphics library that renders a digital vector portrait of **Lord Jagannath**. 
+
+" <img width="1087" height="749" alt="Screenshot 2026-08-08 015449" src="https://github.com/user-attachments/assets/664eecb9-4a08-48c8-9632-45edfd21a2ea" />"
+
+By combining geometric primitives—such as custom arcs, layered circles, and angled vector paths—the script programmatically constructs traditional spiritual iconography against a high-contrast dark background.
+
+
+
+## ✨ Highlights & Iconography
+
+* **Iconic Eye Geometry:** Precise dual-layered circular eyes rendered with white centers, dark pupils, and bold red outlines.
+* **Traditional Tilak:** A golden *U-shaped* mark drawn on the forehead using arc curves.
+* **Expressive Smile:** Programmed using precise arc angles and custom stroke width for a vivid, cheerful expression.
+* **Intricate Nose Ornament (*Nath*):** Multi-layered concentric circular dots creating the classic nose jewel detail.
+* **Peacock Feather (*Mayur Pankh*):** Layered curved paths in green, royal blue, and purple to represent the feather crest above the deity's head.
+* **Zero External Dependencies:** Runs purely on Python's built-in `turtle` module without requiring third-party libraries.
