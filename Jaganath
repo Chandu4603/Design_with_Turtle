@@ -35,7 +35,7 @@ screen.tracer(0, 0)
 # LOAD IMAGE
 # ============================================================
 
-image = Image.open(r"C:\Users\Dell\OneDrive\Documents\Projects\Turtle\jaganath\jaganath.png").convert("RGB")
+image = Image.open(r"jaganath.png(Image path)").convert("RGB")
 
 original_width, original_height = image.size
 
